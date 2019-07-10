@@ -17,11 +17,11 @@ const EventDate = ({ startDate, endDate }) => {
 
   return (
     <>
-      <time datetime={start.toISOString()}>{getDate(start, { year: isOneDay })}</time>
+      <time dateTime={start.toISOString()}>{getDate(start, { year: isOneDay })}</time>
       {!isOneDay && (
         <>
           -
-          <time datetime={end.toISOString()}>
+          <time dateTime={end.toISOString()}>
             {getDate(end, { month: start.getMonth() !== end.getMonth() })}
           </time>
         </>
