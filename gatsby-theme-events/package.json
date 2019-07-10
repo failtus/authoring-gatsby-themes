@@ -1,6 +1,11 @@
 {
-  "name": "gatsby-theme-events",
-  "version": "1.0.0",
+  "name": "@mnuworld/gatsby-theme-events",
+  "author": "Anto Khan <info@mnuworld.com>",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:failtus/authoring-gatsby-themes.git"
+  },
+  "version": "1.0.1",
   "license": "MIT",
   "main": "index.js",
   "scripts": {
@@ -26,5 +31,10 @@
     "gatsby-theme-ui": "^0.2.0",
     "gatsby-transformer-yaml": "^2.2.0",
     "theme-ui": "^0.2.10"
-  }
+  },
+  "keywords": [
+    "gatsby",
+    "gatsby-theme",
+    "gatsby-plugin"
+  ]
 }
